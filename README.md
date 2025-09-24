@@ -57,7 +57,7 @@ Mocks: External libraries such as react-icons and framer-motion were mocked to i
 
 These tests provide confidence that the frontend is robust, accessible, and responsive, ensuring a seamless user experience.
 
-<!-- ---------------------|---------|----------|---------|---------|-------------------
+ ---------------------|---------|----------|---------|---------|-------------------
 File                 | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s
 ---------------------|---------|----------|---------|---------|-------------------
 All files            |   95.41 |    85.71 |     100 |   96.63 |
@@ -82,4 +82,4 @@ Tests:       295 passed, 295 total
 Snapshots:   2 passed, 2 total
 Time:        14.611 s
 Ran all test suites.
-Done in 19.70s. -->
+Done in 19.70s. 
