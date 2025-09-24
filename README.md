@@ -57,7 +57,7 @@ Mocks: External libraries such as react-icons and framer-motion were mocked to i
 
 These tests provide confidence that the frontend is robust, accessible, and responsive, ensuring a seamless user experience.
 
- ---------------------|---------|----------|---------|---------|-------------------
+ 
 File                 | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s
 ---------------------|---------|----------|---------|---------|-------------------
 All files            |   95.41 |    85.71 |     100 |   96.63 |
@@ -75,7 +75,7 @@ All files            |   95.41 |    85.71 |     100 |   96.63 |
   Properties.jsx     |   88.23 |       80 |     100 |   90.24 | 113,121,129,146
   Property3D.jsx     |     100 |      100 |     100 |     100 |
   PropertyDetail.jsx |     100 |      100 |     100 |     100 |
----------------------|---------|----------|---------|---------|-------------------
+
 
 Test Suites: 12 passed, 12 total
 Tests:       295 passed, 295 total
