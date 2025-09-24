@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<DocumentFragment>
+  <nav
+    class="bg-white shadow-sm"
+  >
+    <div
+      class="container"
+    >
+      <div
+        class="flex justify-between h-16"
+      >
+        <div
+          class="flex"
+        >
+          <a
+            class="flex items-center"
+            href="/"
+          >
+            <svg
+              fill="none"
+              height="35"
+              width="30"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle
+                cx="15"
+                cy="20"
+                r="10"
+                stroke="#0682ff"
+              />
+              <circle
+                cx="15"
+                cy="20"
+                r="6"
+                stroke="#0682ff"
+                stroke-width="3"
+              />
+            </svg>
+            <span
+              class="text-2xl font-bold text-primary-600 mt-1.5"
+            >
+              GoldenCity
+            </span>
+          </a>
+        </div>
+        <div
+          class="hidden md:flex md:items-center md:space-x-8"
+        >
+          <a
+            class="text-secondary-600 hover:text-primary-600 px-3 py-2 text-sm font-medium"
+            href="/"
+          >
+            Home
+          </a>
+          <a
+            class="text-secondary-600 hover:text-primary-600 px-3 py-2 text-sm font-medium"
+            href="/properties"
+          >
+            Properties
+          </a>
+          <a
+            class="text-secondary-600 hover:text-primary-600 px-3 py-2 text-sm font-medium"
+            href="/about"
+          >
+            About
+          </a>
+          <a
+            class="text-secondary-600 hover:text-primary-600 px-3 py-2 text-sm font-medium"
+            href="/faq"
+          >
+            FAQ
+          </a>
+          <a
+            class="text-secondary-600 hover:text-primary-600 px-3 py-2 text-sm font-medium"
+            href="/blog"
+          >
+            Blog
+          </a>
+          <button
+            class="btn"
+          >
+            Connect
+          </button>
+        </div>
+        <div
+          class="flex items-center md:hidden"
+        >
+          <button
+            class="text-secondary-600 hover:text-primary-600"
+            type="button"
+          >
+            <div
+              data-size="24"
+              data-testid="menu-icon"
+            >
+              Menu
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+</DocumentFragment>
+`;

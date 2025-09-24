@@ -1,6 +1,13 @@
-import { Link } from 'react-router-dom';
-import { FiPhone, FiMail, FiMapPin, FiGithub, FiTwitter, FiLinkedin } from 'react-icons/fi';
-import { FaDiscord } from 'react-icons/fa';
+import { Link } from "react-router-dom";
+import {
+  FiPhone,
+  FiMail,
+  FiMapPin,
+  FiGithub,
+  FiTwitter,
+  FiLinkedin,
+} from "react-icons/fi";
+import { FaDiscord } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -11,7 +18,8 @@ function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">GoldenCity</h3>
             <p className="text-secondary-300 text-sm">
-              Your trusted partner in finding the perfect property. We make real estate simple and accessible for everyone.
+              Your trusted partner in finding the perfect property. We make real
+              estate simple and accessible for everyone.
             </p>
           </div>
 
@@ -20,22 +28,34 @@ function Footer() {
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
               <li>
-                <Link to="/properties" className="text-secondary-300 hover:text-white text-sm">
+                <Link
+                  to="/properties"
+                  className="text-secondary-300 hover:text-white text-sm"
+                >
                   Properties
                 </Link>
               </li>
               <li>
-                <Link to="/about" className="text-secondary-300 hover:text-white text-sm">
+                <Link
+                  to="/about"
+                  className="text-secondary-300 hover:text-white text-sm"
+                >
                   About Us
                 </Link>
               </li>
               <li>
-                <Link to="/faq" className="text-secondary-300 hover:text-white text-sm">
+                <Link
+                  to="/faq"
+                  className="text-secondary-300 hover:text-white text-sm"
+                >
                   FAQ
                 </Link>
               </li>
               <li>
-                <Link to="/privacy" className="text-secondary-300 hover:text-white text-sm">
+                <Link
+                  to="/privacy"
+                  className="text-secondary-300 hover:text-white text-sm"
+                >
                   Privacy Policy
                 </Link>
               </li>
@@ -82,7 +102,9 @@ function Footer() {
         </div>
 
         <div className="border-t border-secondary-700 mt-8 pt-8 text-center text-secondary-300 text-sm">
-          <p>&copy; {new Date().getFullYear()} GoldenCity. All rights reserved.</p>
+          <p>
+            &copy; {new Date().getFullYear()} GoldenCity. All rights reserved.
+          </p>
         </div>
       </div>
     </footer>

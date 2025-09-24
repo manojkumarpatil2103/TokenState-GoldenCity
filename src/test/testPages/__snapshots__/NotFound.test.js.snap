@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NotFound Component component matches snapshot 1`] = `
+<div
+  class="min-h-screen bg-secondary-50 flex items-center justify-center"
+>
+  <div
+    class="text-center"
+  >
+    <h1
+      class="text-4xl md:text-5xl font-bold mb-6"
+    >
+      Page not found
+    </h1>
+    <p
+      class="text-xl"
+    >
+      Error 404: The page your're looking for does not exist!
+    </p>
+  </div>
+</div>
+`;
